@@ -1,0 +1,94 @@
+.single-property {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgb(249, 249, 249);
+  color: #272727;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0px;
+  border-color: tomato;
+  border-style: solid;
+  transition: 200ms;
+  max-width: 380px;
+  margin: 30px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.card:hover {
+  background-color: rgb(163, 223, 222);
+}
+
+.card-image {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  object-fit: contain;
+  height: 250px;
+}
+
+.price-like {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-month {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name-location {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 13px;
+}
+
+.card-like-icon {
+  height: 25px;
+}
+
+.in-text {
+  font-size: small;
+  color: rgb(39, 35, 35);
+}
+
+.hrr {
+  color: rgb(5, 58, 53);
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.price {
+  color: rgb(5, 46, 42);
+}
+
+.icon {
+  color: rgb(39, 193, 196);
+}
+
+.card-image:hover {
+  transform: scale(1.1);
+}
